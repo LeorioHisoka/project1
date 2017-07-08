@@ -18,7 +18,7 @@ char printHexDig(unsigned long int DecimalV) {
   }
 }
 long int printHexNum(unsigned int DecNum) {
-  int c = 10, c2 = 0, c3 = 0; // counter variables
+  int c = 10, c2 = 0, c3 = 0;
   char hex[8];
   const char letter[6] = {65, 66, 67, 68, 69, 70};
   const char number[10] = {48, 49, 50, 51, 52, 53, 54, 55, 56, 57};
@@ -34,19 +34,19 @@ long int printHexNum(unsigned int DecNum) {
     c2 = 0;
     if ((DecNum % 16) >= 10) {
       while (DecNum % 16 != c) {
-        c2++; // to get actual letter
-        c++;  // to help get place of letter[c] in letter[6] array
+        c2++; 
+        c++;  
       }
       hex[c3] = letter[c2];
     }
-    DecNum /= 16;
-    c3++; // going on to next position in the array for the output of hex
-          // conversion
+    DecNum = 16;
+    c3++; 
+        
   }
   while (c3 >= 0) {
-    // Array needs to be displayed backwards
+ 
     if (c3 <= 0)
-      // goto end;
+  
       c3--;
     cout << hex[c3];
   }
