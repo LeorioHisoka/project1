@@ -1,10 +1,7 @@
 #include <iostream>
 using namespace std;
 static long int  result;
-long int ao = 5;
-long int ss ;
-long int e;
-long int am=ao;
+long int ao = 5, ss , e, am=ao;
 long int mulInt(long int value, long int wo);
 long int fact( long int so);
 int main(int argc, char const *argv[]) {
