@@ -1,18 +1,17 @@
 #include <iostream>
 using namespace std;
-static long int  result;
-long int ao = 5, ss , e, am=ao;
+static long int  result, ao = 5, ss ,am=ao;
 long int mulInt(long int value, long int wo);
-long int fact( long int so);
+long int fact(  long int so);
 int main(int argc, char const *argv[]) {
 cout <<"add= ";
 long int wa,c;
 cin >> wa >> c;
 result = wa;
-cout << mulInt(c, wa) << endl;
-cout <<"fact= ";
-cin >> ao;
-  fact( ao);
+cout << mulInt(c, wa) << endl <<"fact= ";
+//cin >> ao;
+
+  fact(ao);
   return 0;}
 long int mulInt(long int nn, long int wo) { //الدالة مش بتتعامل بالسالب
   nn--;
@@ -23,13 +22,12 @@ long int mulInt(long int nn, long int wo) { //الدالة مش بتتعامل �
     return ss;
   } else {
     return 0;}}
-
 long int fact( long int so) {
   am--;
   if (am >= 1) {
-    int l = mulInt(am, so);
-    cout << l << endl;
-    return fact( l);
+    int av = mulInt(am, so);
+    cout << av << endl;
+    return fact(av);
   } else {
     cout << so << endl;
     return 0;}}
