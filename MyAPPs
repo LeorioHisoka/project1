@@ -1,0 +1,135 @@
+My apps for linux
+Dukto"Easy and multi-platform file transfer tool"
+Docky"The finest dock no money can buy."
+Opera"Fast and secure web browser"
+FireFox"Browse the World Wide Web"
+torbrowser-launcher"Launch Tor Browser"
+thunderbird"Send and receive mail with Thunderbird"
+evolution"Groupware Suite"-Manage your email, contacts and schedule-
+Chormium"Access the Internet"
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+synaptic-pkexec"synaptic Package Manager"
+htop"Show System Processes"-Process Viewer-
+Unity Tweak Tool"Configuration frontend for the Unity desktop environment"
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+psensor"Psensor is a graphical temperature monitor for Linux"
+xfce4-sensors"Show sensor values."-Sensor Values Viewer-
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+gnome-disk-image-mounter"Mount Disk Images"
+remmina"Connect to remote desktops"-Remote Desktop Client-
+ebook-viewer
+shutter"Capture, edit and share screenshots"-Screenshot Tool-
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+ForPower:
+PowerStatistics
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+vim
+leafpad
+Atom
+Here are some packages you might find useful to start with:
+    Minimap
+    Beautify
+    Git Plus
+    Color Picker
+    File Icons
+---------------------------------------------------------------------------------------------------------
+BasKet Note Pads "Multi-Purpose Notepad"
+SciTE"Edit your source files"
+sublime"Sophisticated text editor for code, markup and prose"
+LightTable"Open source IDE that modify, from running programs to embed websites and games"
+codelite
+netbeans"Integrated Development Environment"
+retext"Simple text editor for Markdown and reStructuredText"
+gphpedit"Edit PHP source files"-PHP/HTML/CSS editor-
+bluefish"Web Development Editor"
+notepadqq"Notepadqq source code editor"
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+Gparted
+gnome-disks"Manage Drives and Media"
+baobab"Check folder sizes and available disk space"
+gdmap"Display disk space using tree maps"
+usb-creator-gtk"Create a startup disk using a CD or disc image"
+gnome-multi-writer"Write an ISO file to multiple USB devices at once"
+gnome-disks --restore-disk-image "Write Disk Images to Devices"
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+cheese"Take photos and videos with your webcam, with fun graphical effects"-Webcam Booth-
+freetuxtv"Television Channels Player"-Watch television channels from internet-
+gapplication"A simple maps application"
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+VirtualBox"Run several virtual systems on a single host computer"-PC virtualization solution-
+Boxes"View and use virtual machines"-Virtual machine viewer/manager-
+graphical disk map
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+Dictionary
+almanah"Keep a personal diary"
+artha"Handy thesaurus based on WordNet"
+opendict"Dictionary OpenDict"-Lookup words in a local or Internet dictionary-
+GoldenDict"Multiformat Dictionary"
+stardict"Lookup words"
+xfce4-dict"A client program to query different dictionaries."
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+modem-manager-gui"Graphical interface for Modem manager daemon control"-Broadband modem management tool-
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+Clipboard Tool:
+Clipman "xfce4-clipman" "Clipboard manager"
+qlipper"Clipboard history tool"
+clipit"Clipboard Manager"
+http://1clipboard.io/
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+pylang"Practice Languages"-Complete the right sentence with random words in English, Spanish...-
+calibre "E-book library management"
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+Polari"An Internet Relay Chat Client for GNOME"
+quiterss"QuiteRSS is a RSS/Atom feed reader written in C++/Qt4"-RSS/Atom feed reader-
+urserver-start"Start Unified Remote Server"
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+gnome-session-properties"Choose what applications to start when you log in"
+
+
+
+SomeLinesOfCommeds :
+Fedora :
+sudo dnf install f25-backgrounds-extras  f25-backgrounds-extras-xfce   f25-backgrounds-extras-gnome codeblocks smplayer git zip p7zip gzip cpio unar p7zip-plugins  geany geany-themes xterm  codeblocks xterm gcc-c++ gcc @eclipse vim emacs  nano pidgin transmission shutter wine tor   unrar p7zip  parole goldendict
+sudo dnf group install arabic-support
+sudo dnf group install fonts
+sudo dnf install msttcore-fonts-installer
+ sudo dnf install k3b-extras-freeworld xine-lib xine-lib-devel xine-lib-extras
+sudo dnf  install @eclipse
+
+sudo dnf copr enable rommon/telegram
+sudo dnf install telegram-desktop
+
+sudo dnf install lm_sensors
+sudo dnf install hddtemp
+
+sudo dnf install github-backup
+
+add some options for dnf.Configuration :
+echo 'keepcache=1
+deltarpm=1' >> /etc/dnf/dnf.conf
+deltarpm=1
+fastestmirror=True
+
+
+
+---------------------------------------------------------------------------------------------
+redshift-gtk ForDisplayAndEye
+redshift
+BootUp-Manager
+
+nitroshare
+for share in lan
