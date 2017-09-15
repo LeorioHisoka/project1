@@ -6,7 +6,7 @@ public class MainClass {
 
     static TheDoctors ObjD;
     static TheNurses ObjN;
-    static TheRapist ObjR;
+    static Therapist ObjR;
 
     public static void print() {
         System.out.println(ObjD.GetDepartmentOfD());
@@ -37,7 +37,7 @@ public class MainClass {
 
     public static void main(String[] args) {
       
-        ObjR = new TheRapist("TheRapistPtreatment_Type", "TheRapistPFunction", "TheRapistPSkills", "TheRapistPEducation", "TheRapistPName");
+        ObjR = new Therapist("TherapistPtreatment_Type", "TherapistPFunction", "TherapistPSkills", "TherapistPEducation", "TherapistPName");
         ObjN = new TheNurses(0, 0, "TheNursesPRole", "TheNursesPSkills", "TheNursesPEducation", "TheNursesPName", "TheNursesPType");
         ObjD = new TheDoctors("TheDoctorsPdepartment", "TheDoctorsPrank", "TheDoctorsPspecialty", "TheDoctorsPEducation", "TheDoctorsPName");
         print();
