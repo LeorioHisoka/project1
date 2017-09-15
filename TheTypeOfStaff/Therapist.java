@@ -3,7 +3,7 @@ package TheTypeOfStaff;
 import PackOfCount.TheNumberOfStaff;
 import java.util.Date;
 
-public class TheRapist {
+public class Therapist {
 
     TheNumberOfStaff StaffN = new TheNumberOfStaff();
     private final String Name;
@@ -12,7 +12,7 @@ public class TheRapist {
     private final String education;
     private final String treatment_Type, function, Skills;
 
-    public TheRapist(String Ptreatment_Type, String PFunction, String PSkills, String PEducation, String PName) {
+    public Therapist(String Ptreatment_Type, String PFunction, String PSkills, String PEducation, String PName) {
         this.treatment_Type = Ptreatment_Type;
         this.function = PFunction;
         this.Skills = PSkills;
